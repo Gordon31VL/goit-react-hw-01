@@ -1,0 +1,18 @@
+.Offline {
+    color: red;
+}
+
+.Online {
+    color: green;
+}
+
+.friendList{
+    display: flex;
+    gap: 4px;
+}
+
+.friendItem {
+    padding: 8px;
+    border: solid 2px black;
+    border-radius: 5px;
+}

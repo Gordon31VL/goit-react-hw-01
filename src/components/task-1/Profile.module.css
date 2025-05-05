@@ -1,0 +1,60 @@
+.userImage {
+    width: 128px;
+    height: 128px;
+    background-color: black;
+    border-radius: 50%;
+}
+.statsList, .statsItem{
+    display: flex;
+}
+.statsList{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #d3d3d3;
+}
+.statsItem{
+    border: solid 2px #808080;
+    border-bottom: none;
+    flex-direction: column;
+    flex: 1;
+    text-align: center
+}
+.statsItem:last-child{
+    border-right: none;
+}
+.statsItem:first-child{
+    border-left: none;
+}
+.statsItem:nth-child(2){
+    border-left: none;
+    border-right: none;
+}
+.profileBox {
+    width: 256px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid 3px #212121;
+    padding-top: 8px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.userInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    color: #8a8a8a;
+    font-size: 16px;
+}
+.name {
+    font-size: 24px;
+    color: #212121;
+    font-weight: 600;
+}
+.statsItemNum{
+    font-weight: 600;
+}
