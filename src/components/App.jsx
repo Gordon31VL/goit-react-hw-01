@@ -6,6 +6,7 @@ import Transactions from "./task-3/transactions";
 import transactionsList from "./task-3/transactions.json";
 
 export default function App() {
+  console.log(friendData)
   return (
     <div>
       <h2>Task 1. Profile</h2>

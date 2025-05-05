@@ -1,4 +1,4 @@
-import styles from "./Transactions.module.css";
+import styles from "./transactions.module.css";
 
 export default function Transactions({ transactionsData }) {
   return (
