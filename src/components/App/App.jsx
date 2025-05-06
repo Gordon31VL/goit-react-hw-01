@@ -1,9 +1,9 @@
-import Profile from "./task-1/Profile";
-import userData from "./task-1/user-data.json";
-import Friends from "./task-2/Friend";
-import friendData from "./task-2/friends.json";
-import Transactions from "./task-3/Transactions";
-import transactionsList from "./task-3/transactions.json";
+import Profile from "../Profile/Profile";
+import userData from "../Profile/Profile.json";
+import Friends from "../FriendList/FriendList";
+import friendData from "../FriendList/FriendList.json";
+import Transactions from "../TransactionHistory/TransactionHistory";
+import transactionsList from "../TransactionHistory/TransactionHistory.json";
 
 export default function App() {
   return (
